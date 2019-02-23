@@ -29,8 +29,8 @@ div{
 div:after{
     display:block;
     content:'';
-    width:100px;
-    height:100px;
+    width: 50%;
+    height: 50%;
     border-radius: 50%;
     border: 8px ridge #00b81a;
     transform: rotate(-45deg);
