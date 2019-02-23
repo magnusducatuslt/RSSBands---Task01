@@ -1,0 +1,44 @@
+html, body{
+    margin: 0;
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid;
+    width: 300px;
+    height:300px;
+    transform: rotate(45deg);
+    position:relative;
+}
+div{
+    background-color:red;
+    background: 
+    linear-gradient(45deg,#9add43 63%, #9add43 10%) 0% 0% / 150px 150px,
+    linear-gradient(45deg,#9add43 63%, #9add43 10%) 100% 100% / 150px 150px,
+    linear-gradient(45deg,green 63%, green 10%) 0% 100% / 150px 150px,
+    linear-gradient(45deg,white 63%, white 10%) 100% 0% / 150px 150px;
+    background-repeat: no-repeat;
+}
+div:after{
+    display:block;
+    content:'';
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    border: 8px ridge #00b81a;
+    transform: rotate(-45deg);
+}
+/* .garik {
+    width:0px;
+    height:0px;
+    border:200px solid #9add43;
+    border-top-color: aliceblue;
+    border-bottom-color: aqua;
+} */
